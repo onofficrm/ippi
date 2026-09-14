@@ -1,0 +1,22 @@
+<?php exit; ?>
+[19/Mar/23:17:10:45 +0000] Cannot download security rules: connection error
+[01/May/23:21:54:23 +0000] Cannot download security rules: connection error
+[16/Feb/24:10:36:35 +0000] Cannot download security rules: connection error
+[16/Feb/24:13:07:39 +0000] Cannot download security rules: connection error
+[16/Feb/24:16:44:39 +0000] Cannot download security rules: connection error
+[16/Feb/24:19:35:37 +0000] Cannot download security rules: connection error
+[16/Feb/24:22:01:50 +0000] Cannot download security rules: connection error
+[17/Feb/24:00:31:38 +0000] Cannot download security rules: connection error
+[17/Feb/24:02:24:35 +0000] Cannot download security rules: connection error
+[17/Feb/24:04:28:59 +0000] Cannot download security rules: connection error
+[17/Feb/24:06:18:21 +0000] Cannot download security rules: connection error
+[14/May/24:13:18:40 +0000] Cannot download security rules: connection error
+[18/Jun/24:07:11:39 +0000] Cannot download security rules: connection error
+[16/Aug/24:05:21:16 +0000] Cannot download security rules: connection error
+[21/Aug/24:09:26:12 +0000] Cannot download security rules: connection error
+[28/Sep/24:02:38:10 +0000] Cannot download security rules: connection error
+[28/Sep/24:08:46:21 +0000] Cannot download security rules: connection error
+[04/Nov/24:22:28:32 +0000] Cannot download security rules: connection error
+[23/Feb/26:17:32:14 +0000] Cannot download security rules: connection error
+[24/Feb/26:19:48:23 +0000] Cannot download security rules: connection error
+[26/Feb/26:17:45:33 +0000] Cannot download security rules: connection error

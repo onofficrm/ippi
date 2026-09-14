@@ -1,0 +1,192 @@
+/*
+Theme Name: Amalie
+* Styles for Gutenberg blocks
+*/
+
+
+#editor {
+	color: #333;
+}
+
+body.gutenberg-editor-page #editor .edit-post-visual-editor .editor-post-title__block,
+body.gutenberg-editor-page #editor .editor-default-block-appender,
+body.gutenberg-editor-page #editor .editor-block-list__block {
+	max-width: 830px;
+}
+
+/* Width of "wide" blocks */
+body.gutenberg-editor-page #editor .editor-block-list__block[data-align="wide"] {
+	max-width: 1080px;
+}
+
+/* Width of "full-wide" blocks */
+body.gutenberg-editor-page #editor .editor-block-list__block[data-align="full"] {
+	max-width: none;
+}
+
+body.gutenberg-editor-page .editor-block-list__block, 
+body.gutenberg-editor-page .editor-block-list__block p {
+	font-size: 18px;
+}
+
+.edit-post-visual-editor,
+.edit-post-visual-editor p {
+	font-family: "Noto Sans", sans-serif;
+}
+
+.edit-post-visual-editor h1,
+.edit-post-visual-editor h2,
+.edit-post-visual-editor h3,
+.edit-post-visual-editor h4,
+.edit-post-visual-editor h5,
+.edit-post-visual-editor h6,
+.editor-post-title textarea.editor-post-title__input {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 700;
+}
+
+.edit-post-visual-editor p.wp-block-subhead {
+	color: inherit;
+	opacity: 0.75;
+}
+
+body .editor-block-list__block a {
+	color: #333;
+}
+
+.gutenberg .entry-content{
+	line-height: 1.8;
+	margin: 0 auto;
+	display: block;
+}
+
+.edit-post-visual-editor .wp-block-preformatted pre,
+.editor-block-list__block .wp-block-verse pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+}
+
+body.gutenberg {
+	overflow-x: hidden;
+}
+
+.wp-block-quote,
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	border: none;
+	border-left: 4px solid #6f6b68;
+    color: #6f6b68;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 1.6667;
+    margin-bottom: 1.6667em;
+    padding-left: 0.7778em;
+}
+
+.wp-block-quote:before,
+.wp-block-quote:not(.is-large):not(.is-style-large):before,
+.wp-block-pullquote:before {
+	content: "";
+	display: block;
+	font-size: 72px;
+	font-size: 4rem;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1;
+	position: absolute;
+	top: -.1em;
+	left: -.6em;
+}
+
+.wp-block-quote cite,
+.wp-block-quote__citation {
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: left;
+}
+
+.block-library-list .editor-rich-text__tinymce, 
+.block-library-list .editor-rich-text__tinymce ol, 
+.block-library-list .editor-rich-text__tinymce ul {
+	margin: 0 0 1.5em 3em;
+	padding: 0;
+}
+
+.gutenberg .wp-block-latest-posts {
+	padding-left: 2.5em;
+}
+
+.wp-block-pullquote {
+	border-top: none;
+	border-bottom: none;
+	border-left: 4px solid #6f6b68;
+    color: #6f6b68;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 1.6667;
+    margin-bottom: 1.6667em;
+    padding-left: 0.7778em;
+}
+
+.editor-block-list__block .wp-block-pullquote p,
+.editor-block-list__block .wp-block-quote p,
+.wp-block-quote:not(.is-large):not(.is-style-large) p {
+	font-size: 23px;
+	font-size: 1.4375rem;
+}
+
+.wp-block-pullquote>.block-library-pullquote__content .editor-rich-text__tinymce[data-is-empty=true]:before, 
+.wp-block-pullquote>.editor-rich-text p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.wp-block-pullquote>.editor-rich-text p cite,
+.wp-block-pullquote cite {
+	font-style: normal;
+}
+
+.editor-block-list__block .wp-block-table td {
+	padding: 3px;
+}
+
+.editor-block-list__block .wp-block-table tbody, 
+.editor-block-list__block .wp-block-table th, 
+.editor-block-list__block .wp-block-table td {
+	border: 2px solid #333;
+	padding: 5px;
+}
+.editor-block-list__block .wp-block-table th {
+	background: #fff;
+}
+
+.wp-block-button__link {
+	border-radius: 0;
+	font-family: "Noto Sans", sans-serif;
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+
+/* Custom Editor Palette */
+.wp-block-button.is-style-outline .wp-block-button__link, 
+.wp-block-button__link.is-style-outline,
+.has-strong-green-color,
+.wp-block-button__link.is-style-outline.has-strong-green-color,
+.wp-block-button__link.has-strong-green-color {
+	color: #98b84c;
+}
+
+.has-strong-green-background-color,
+.wp-block-button__link.has-strong-green-background-color {
+	background-color: #98b84c;
+}
+
+.alignleft {
+    margin-right: 20px;
+}
+
+.alignright {
+    margin-left: 20px;
+}
+

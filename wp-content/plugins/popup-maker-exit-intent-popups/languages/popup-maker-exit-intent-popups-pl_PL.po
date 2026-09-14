@@ -1,0 +1,113 @@
+# Copyright (C) 2018 popup-maker-exit-intent-popups
+# This file is distributed under the same license as the popup-maker-exit-intent-popups package.
+msgid ""
+msgstr ""
+"Project-Id-Version: popup-maker-exit-intent-popups\n"
+"Report-Msgid-Bugs-To: https://wppopupmaker.com/support\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-11-11 23:46+0100\n"
+"Language-Team: WP Popup Maker <support@wppopupmaker.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: Dariusz Zielonka <info@dariusz-zielonka.pl>\n"
+"Language: pl_PL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/Triggers.php:31, classes/Triggers.php:32
+msgid "Exit Intent"
+msgstr "Zamierzenie wyjścia"
+
+#: classes/Triggers.php:32
+msgid "% Settings"
+msgstr "Ustawienia %"
+
+#: classes/Triggers.php:33
+msgid "Top"
+msgstr "Góra"
+
+#: classes/Triggers.php:33
+msgid "Delay"
+msgstr "Opóźnienie"
+
+#: classes/Triggers.php:37
+msgid "Top Sensitivity"
+msgstr "Najwyższa czułość"
+
+#: classes/Triggers.php:38
+msgid ""
+"The distance from the top of the browser window where the users mouse "
+"movement is detected."
+msgstr ""
+"Odległość od górnej krawędzi okna przeglądarki, w której wykrywany jest ruch "
+"myszy użytkownika."
+
+#: classes/Triggers.php:47
+msgid "False Positive Delay"
+msgstr "Fałszywie dodatnie opóźnienie"
+
+#: classes/Triggers.php:48
+msgid ""
+"The delay used for false positive detection. A higher value reduces false "
+"positives, but increases chances of not opening in time."
+msgstr ""
+"Opóźnienie użyte do wykrycia fałszywie pozytywnego zamierzenia wyjścia. "
+"Wyższa wartość zmniejsza liczbę fałszywych alarmów, ale zwiększa szanse na "
+"nieotwarcie w czasie."
+
+#: classes/Triggers.php:60
+msgid "Exit Prevention"
+msgstr "Prewencja wyjścia"
+
+#: classes/Triggers.php:61
+msgid "Exit Prevention Settings"
+msgstr "Ustawienia prewencji wyjścia"
+
+#: classes/Triggers.php:62
+msgid "Message"
+msgstr "Komunikat"
+
+#: classes/Triggers.php:66
+msgid "Prompt Message"
+msgstr "Komunikat zwrotny"
+
+#: classes/Triggers.php:67
+msgid ""
+"Due to changes in modern browser security it is no longer possible to change "
+"the prompt message."
+msgstr ""
+"Ze względu na zmiany w zabezpieczeniach nowoczesnych przeglądarek nie jest "
+"już możliwa zmiana komunikatu zwrotnego."
+
+#: includes/pum-sdk/class-pum-extension-activation.php:82
+msgid "update it"
+msgstr "aktualizuj ją"
+
+#: includes/pum-sdk/class-pum-extension-activation.php:83
+msgid " requires Popup Maker v%s or higher! Please %s to continue!"
+msgstr " wymaga Popup Maker v%s lub nowszej! Proszę %s, aby kontynuować!"
+
+#: includes/pum-sdk/class-pum-extension-activation.php:87
+msgid "activate it"
+msgstr "aktywuj ją"
+
+#: includes/pum-sdk/class-pum-extension-activation.php:90
+msgid "install it"
+msgstr "instaluj ją"
+
+#: includes/pum-sdk/class-pum-extension-activation.php:92
+msgid " requires Popup Maker! Please %s to continue!"
+msgstr " wymaga Popup Maker! Proszę %s, aby kontynuować!"
+
+#: includes/upgrades/class-upgrade-v1_2-popups.php:126
+msgid "Please take a moment to check out a special offer just for you!"
+msgstr "Poświęć chwilę na zapoznanie się z ofertą specjalną tylko dla Ciebie!"

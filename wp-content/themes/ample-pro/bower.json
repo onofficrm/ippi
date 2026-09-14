@@ -1,0 +1,22 @@
+{
+  "name": "ample-pro",
+  "description": "Business Theme",
+  "main": "Gruntfile.js",
+  "license": "GPL-3.0+",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "theia-sticky-sidebar": "^1.7.0",
+    "font-awesome": "^4.7.0",
+    "bxslider-4": "^4.2.12",
+    "page-scroll-to-id": "^1.5.7",
+    "counterup": "^1.0.0"
+  }
+}

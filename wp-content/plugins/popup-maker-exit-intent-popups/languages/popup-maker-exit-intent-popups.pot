@@ -1,0 +1,164 @@
+# Copyright (C) 2019 Exit Triggers for Popup Maker
+# This file is distributed under the same license as the Exit Triggers for Popup Maker package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Exit Triggers for Popup Maker\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: WP Popup Maker <support@wppopupmaker.com>\n"
+"Report-Msgid-Bugs-To: https://wppopupmaker.com/support/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: classes/Triggers.php:39, classes/Triggers.php:40
+msgid "Exit Intent"
+msgstr ""
+
+#: classes/Triggers.php:40
+msgid "%s Settings"
+msgstr ""
+
+#: classes/Triggers.php:45
+msgid "Methods"
+msgstr ""
+
+#: classes/Triggers.php:48
+msgid "Mouse Leave"
+msgstr ""
+
+#: classes/Triggers.php:49
+msgid "Lost Browser Focus"
+msgstr ""
+
+#: classes/Triggers.php:50
+msgid "Back Button"
+msgstr ""
+
+#: classes/Triggers.php:51
+msgid "Link Click"
+msgstr ""
+
+#: classes/Triggers.php:52
+msgid "Time Delay"
+msgstr ""
+
+#: classes/Triggers.php:53
+msgid "Mobile Scroll"
+msgstr ""
+
+#: classes/Triggers.php:62
+msgid "Advanced Options"
+msgstr ""
+
+#: classes/Triggers.php:66
+msgid "Additional advanced settings for the various available methods."
+msgstr ""
+
+#: classes/Triggers.php:69
+msgid "Mouse Leave Options"
+msgstr ""
+
+#: classes/Triggers.php:76
+msgid "Top Sensitivity"
+msgstr ""
+
+#: classes/Triggers.php:77
+msgid "The distance from the top of the browser window where the users mouse movement is detected."
+msgstr ""
+
+#: classes/Triggers.php:89
+msgid "False Positive Delay"
+msgstr ""
+
+#: classes/Triggers.php:90
+msgid "The delay used for false positive detection. A higher value reduces false positives, but increases chances of not opening in time."
+msgstr ""
+
+#: classes/Triggers.php:102
+msgid "Back Button Options"
+msgstr ""
+
+#: classes/Triggers.php:109
+msgid "Continue on close"
+msgstr ""
+
+#: classes/Triggers.php:110
+msgid "If enabled will continue to the users intended destination (back) after closing the popup."
+msgstr ""
+
+#: classes/Triggers.php:117
+msgid "Link Click Options"
+msgstr ""
+
+#: classes/Triggers.php:124
+msgid "Targeting"
+msgstr ""
+
+#: classes/Triggers.php:127
+msgid "External Links"
+msgstr ""
+
+#: classes/Triggers.php:128
+msgid "Internal Links"
+msgstr ""
+
+#: classes/Triggers.php:129
+msgid "Custom"
+msgstr ""
+
+#: classes/Triggers.php:137
+msgid "Enter a valid CSS selector to target your specific links."
+msgstr ""
+
+#: classes/Triggers.php:145
+msgid "Delay after hovering a link"
+msgstr ""
+
+#: classes/Triggers.php:146
+msgid "Studies show if users hover a link longer than 300ms there is a 50% change they are going to click it."
+msgstr ""
+
+#: classes/Triggers.php:158
+msgid "Mobile Time Delay Options"
+msgstr ""
+
+#: classes/Triggers.php:165
+msgid "Mobile device time delay"
+msgstr ""
+
+#: classes/Triggers.php:177
+msgid "Mobile Scroll Options"
+msgstr ""
+
+#: classes/Triggers.php:184
+msgid "Mobile scroll up percentage"
+msgstr ""
+
+#: classes/Triggers.php:199
+msgid "Exit Prevention"
+msgstr ""
+
+#: classes/Triggers.php:200
+msgid "Exit Prevention Settings"
+msgstr ""
+
+#: classes/Triggers.php:201
+msgid "Message"
+msgstr ""
+
+#: classes/Triggers.php:205
+msgid "Prompt Message"
+msgstr ""
+
+#: classes/Triggers.php:206
+msgid "Due to changes in modern browser security it is no longer possible to change the prompt message."
+msgstr ""
+
+#: includes/upgrades/class-upgrade-v1_2-popups.php:126
+msgid "Please take a moment to check out a special offer just for you!"
+msgstr ""

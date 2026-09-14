@@ -1,0 +1,523 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 12:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. %s: Name of current post
+#. %s: Name of current post
+#: content-quote.php:23 content-quote.php:52 content.php:38 
+#: content-link.php:30 inc/template-tags.php:240
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: content-quote.php:28 content-quote.php:57 content-page.php:24 
+#: content-page-blank.php:16 image.php:58 content.php:43 
+#: content-grid-page.php:24 content-front-page.php:26 
+#: content-front-page.php:47 content-link.php:35
+msgid "Pages:"
+msgstr ""
+
+#: content-quote.php:32 content-quote.php:61 content-page.php:28 
+#: archive.php:50 content-page-blank.php:20 image.php:62 search.php:39 
+#: content.php:47 content-grid-page.php:28 content-front-page.php:30 
+#: content-front-page.php:51 content-link.php:39 index.php:47
+msgid "Page"
+msgstr ""
+
+#: content-quote.php:79 content-page.php:34 content-page-blank.php:26 
+#: content-search.php:28 content-search.php:34 image.php:70 content.php:63 
+#: content-link.php:56
+msgid "Edit"
+msgstr ""
+
+#: archive.php:48 search.php:37 index.php:45
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:49 search.php:38 index.php:46
+msgid "Next page"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:39
+msgid "Menu and widgets"
+msgstr ""
+
+#: image.php:23
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:23
+msgid "Next Image"
+msgstr ""
+
+#: image.php:83
+msgctxt "Parent post link"
+msgid "Published in %title"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: single.php:32
+msgid "Next"
+msgstr ""
+
+#: single.php:33
+msgid "Next post:"
+msgstr ""
+
+#: single.php:35
+msgid "Previous"
+msgstr ""
+
+#: single.php:36
+msgid "Previous post:"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: functions.php:74
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:75
+msgid "Social Links Menu"
+msgstr ""
+
+#: functions.php:126
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:128
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#. If there are characters in your language that are not supported by Noto Sans, translate this to 'off'. Do not translate into your own language.
+#: functions.php:149
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Playfair Display, translate this to 'off'. Do not translate into your own language.
+#: functions.php:153
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#. To add an additional character subset specific to your language, translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
+#: functions.php:157
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:197
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:198
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:364
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:370 admin/admin.php:90
+msgid "WooCommerce"
+msgstr ""
+
+#: functions.php:376 admin/admin.php:108
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:382
+msgid "Email Subscribers & Newsletter"
+msgstr ""
+
+#: functions.php:388
+msgid "Soliloquy"
+msgstr ""
+
+#: functions.php:416
+msgid "Demo Import"
+msgstr ""
+
+#. Name of the template
+#: functions.php:436
+msgid "Front Page"
+msgstr ""
+
+#: functions.php:437
+msgid "Blog"
+msgstr ""
+
+#: functions.php:446
+msgid "Before you begin, make sure all the recommended plugins are activated."
+msgstr ""
+
+#: author-bio.php:11
+msgid "Published by"
+msgstr ""
+
+#: author-bio.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: footer.php:15
+msgid "&copy;"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:54
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:69 inc/template-tags.php:77
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:72
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:80
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:91
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:125
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Front Page Featured Page"
+msgstr ""
+
+#: inc/customizer.php:33
+msgid "Featured Page"
+msgstr ""
+
+#: inc/customizer.php:41
+msgid "Applies to the sidebar on wide screens."
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Copyright Settings"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Amalie by Anariel Design. All rights reserved."
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Hide copyright text"
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Change color of the green background elements like buttons etc."
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Hide Post Date"
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Hide Post Meta"
+msgstr ""
+
+#: inc/customizer.php:137 admin/admin.php:51
+msgid "Visit Documentation"
+msgstr ""
+
+#: inc/customizer.php:142 admin/admin.php:70 admin/admin.php:77
+msgid "Support Page"
+msgstr ""
+
+#: inc/customizer.php:147 admin/admin.php:200
+msgid "More Themes by Anariel Design"
+msgstr ""
+
+#: inc/customizer.php:156 admin/admin.php:7
+msgid "Theme Info"
+msgstr ""
+
+#: admin/admin.php:7
+msgid "Welcome to Amalie"
+msgstr ""
+
+#: admin/admin.php:17
+#, php-format
+msgid "Welcome to %1s %2s"
+msgstr ""
+
+#: admin/admin.php:22
+msgid "Find more about Amalie"
+msgstr ""
+
+#: admin/admin.php:34 admin/admin.php:205
+msgid "Theme Screenshot"
+msgstr ""
+
+#: admin/admin.php:39
+#, php-format
+msgid "Getting Started with %s"
+msgstr ""
+
+#: admin/admin.php:44
+msgid "Theme Documentation"
+msgstr ""
+
+#: admin/admin.php:47
+msgid ""
+"Please check the documentation to get better overview of how the theme is "
+"structured."
+msgstr ""
+
+#: admin/admin.php:57
+msgid "Theme Options"
+msgstr ""
+
+#: admin/admin.php:60
+msgid ""
+"Click \"Customize\" to open the Customizer. Amalie has implemented "
+"Customizer and added some useful options to help you style color elements, "
+"upload image logo and a lot more."
+msgstr ""
+
+#: admin/admin.php:64
+msgid "Customize"
+msgstr ""
+
+#: admin/admin.php:73
+msgid "There is a solution to every problem!"
+msgstr ""
+
+#: admin/admin.php:84
+msgid "Recommended Plugins"
+msgstr ""
+
+#: admin/admin.php:86
+msgid ""
+"Plugins listed are not mandatory for theme to work! Install only the ones "
+"you need for your website!"
+msgstr ""
+
+#: admin/admin.php:91
+msgid "An e-commerce toolkit that helps you sell anything. Beautifully."
+msgstr ""
+
+#: admin/admin.php:95 admin/admin.php:113 admin/admin.php:132 
+#: admin/admin.php:150 admin/admin.php:168 admin/admin.php:184
+msgid "Already activated"
+msgstr ""
+
+#: admin/admin.php:101
+msgid "Install WooCommerce"
+msgstr ""
+
+#: admin/admin.php:109
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr ""
+
+#: admin/admin.php:119
+msgid "Install Contact Form 7"
+msgstr ""
+
+#: admin/admin.php:127 admin/admin.php:138
+msgid "Email Subscribers & Newsletters"
+msgstr ""
+
+#: admin/admin.php:128
+msgid ""
+"Add subscription forms on website, send HTML newsletters & automatically "
+"notify subscribers about new blog posts once it is published."
+msgstr ""
+
+#: admin/admin.php:145 admin/admin.php:156
+msgid "Elementor"
+msgstr ""
+
+#: admin/admin.php:146
+msgid ""
+"The most advanced frontend drag & drop page builder. Create high-end, pixel "
+"perfect websites at record speeds. Any theme, any page, any design."
+msgstr ""
+
+#: admin/admin.php:164
+msgid "Premium Soliloquy Slider"
+msgstr ""
+
+#: admin/admin.php:174
+msgid ""
+"Plugin & license key can be found inside the plugins folder within the main "
+"folder you downloaded"
+msgstr ""
+
+#: admin/admin.php:180
+msgid "Custom Google Fonts Plugin"
+msgstr ""
+
+#: admin/admin.php:190
+msgid ""
+"Plugin can be found inside the plugins folder within the main folder you "
+"downloaded"
+msgstr ""
+
+#: admin/admin.php:203
+msgid ""
+"Build Your Dream WordPress Site with Premium Niche Themes for Bloggers & "
+"Charities"
+msgstr ""
+
+#: admin/admin.php:208
+msgid "More Themes"
+msgstr ""
+
+#: admin/admin.php:217
+#, php-format
+msgid "%1s is proudly brought to you by %2s. %3s: %4s."
+msgstr ""
+
+#: admin/admin.php:217
+msgid "Theme Demo"
+msgstr ""
+
+#. Name of the template
+msgid "Template for Page Builder"
+msgstr ""
+
+#. Name of the template
+msgid "Grid Page"
+msgstr ""
+
+#. Name of the theme
+msgid "Amalie"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"\"Amalie\" is a feature rich, uniquely designed premium blogging theme built "
+"upon the free \"Twenty Fifteen\" WordPress theme. Responsive grid is a "
+"standard these days and \"Amalie\" makes a good use of it to preserve its "
+"unique looks across the whole range of internetcapable devices."
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.anarieldesign.com/themes/"
+msgstr ""
+
+#. Author of the theme
+msgid "Anariel Design"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.anarieldesign.com/"
+msgstr ""
