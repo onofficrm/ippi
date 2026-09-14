@@ -1,0 +1,99 @@
+name: Sync from FTP
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-from-ftp.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install lftp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+
+      - name: Download site from FTP
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_PORT: ${{ secrets.FTP_PORT }}
+        run: |
+          set -euo pipefail
+          FTP_PORT="${FTP_PORT:-21}"
+          FTP_SERVER="${FTP_SERVER#ftp://}"
+          FTP_SERVER="${FTP_SERVER#ftps://}"
+          FTP_SERVER="${FTP_SERVER#sftp://}"
+          FTP_SERVER="${FTP_SERVER%/}"
+
+          LIST=$(lftp -u "$FTP_USERNAME","$FTP_PASSWORD" -p "$FTP_PORT" "$FTP_SERVER" <<'EOF'
+          set ftp:passive-mode true
+          set ssl:verify-certificate no
+          set sftp:auto-confirm yes
+          set net:max-retries 3
+          set net:timeout 30
+          set cmd:fail-exit yes
+          cls -1
+          bye
+          EOF
+          )
+
+          echo "FTP root listing:"
+          echo "$LIST"
+
+          REMOTE_DIR="."
+          if echo "$LIST" | grep -qx "public_html"; then
+            REMOTE_DIR="public_html"
+          elif echo "$LIST" | grep -qx "www"; then
+            REMOTE_DIR="www"
+          elif echo "$LIST" | grep -qx "httpdocs"; then
+            REMOTE_DIR="httpdocs"
+          fi
+          echo "Using remote directory: $REMOTE_DIR"
+
+          lftp -u "$FTP_USERNAME","$FTP_PASSWORD" -p "$FTP_PORT" "$FTP_SERVER" <<EOF
+          set ftp:passive-mode true
+          set ssl:verify-certificate no
+          set sftp:auto-confirm yes
+          set net:max-retries 3
+          set net:timeout 30
+          set xfer:clobber true
+          set cmd:fail-exit yes
+          cd $REMOTE_DIR
+          pwd
+          mirror --verbose --parallel=4 \
+            --exclude-glob .git/ \
+            --exclude-glob .github/ \
+            --exclude-glob .gitignore \
+            --exclude-glob node_modules/ \
+            --exclude-glob .DS_Store \
+            . .
+          bye
+          EOF
+
+      - name: Commit and push downloaded files
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No site files downloaded from FTP."
+            exit 1
+          fi
+          git commit -m "Sync site files from FTP server."
+          git push
